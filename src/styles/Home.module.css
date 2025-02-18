@@ -5,69 +5,109 @@
 
 .header{
   background-color: black;
+  height: 70px;
+  display: flex;
+  align-items: center;
 }
 .header>h1{
-  color: aqua;
-  font-size: small;
+  color: rgb(78, 192, 207);
+  font-size: 18px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 10px;
 } 
 
 .requisitos{
-  background-color: beige;
+  background-color: azure;
 }
 
 .requisitos>h2{
   text-align: center;
-  padding-top: 40px;
+  padding-top: 80px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 } 
 
 .requisitos>p{
   text-align: center;
   padding: 10px;
   margin-top: 35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
 }
 
 .titulos{
-  background-color: chocolate;
+  background-color:rgb(33, 31, 54);
   text-align: center;
-  height: 200px;
+  height: 350px;
 }
 
-.titulos>h1, .titulos>p{
-  padding-top: 20px;
-} 
+.titulos>h1{
+  color: rgb(78, 192, 207);
+  padding-top: 60px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titulos>p{
+  color: antiquewhite;
+  font-size: 20px;
+  padding-top: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;  
+}
+
+
 .titulos>button{
-  margin-top: 20px;
-  padding: 10px;
-  background-color: aqua;
-  box-shadow: 0 0 10px black;
+  margin-top: 60px;
+  padding: 15px;
+  background-color: rgb(78, 192, 207);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titulos>button>a{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: antiquewhite;
+  cursor: pointer;
 }
 
 .grid{
   display: grid;
   justify-self: center;
   grid-template-columns: 1fr 1fr 1fr;
-  margin-top: 100px;
-  width: 900px;
+  margin-top: 75px;
+  width: 1000px;
   gap: 40px;
 }
 
 .box{
-  background-color: darkgray;
+  background-color: rgb(33, 31, 54);
   text-align: center;
   padding: 15px;
-  border-radius: 5px;
-  margin-bottom: 100px;
+  border-radius: 10px;
+  margin-bottom: 80px;
 }
 
 .box>h3{
   margin-bottom: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(204, 150, 80);
+}
+
+.box>p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: antiquewhite;
 }
 
 .footer{
-  background-color: black;
-  color: white;
+  background-color: rgb(240, 239, 245);
   text-align: center;
   padding: 10px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 } 
+.footer>p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  color: rgb(33, 31, 54);
+  font-weight: bold;
+}
